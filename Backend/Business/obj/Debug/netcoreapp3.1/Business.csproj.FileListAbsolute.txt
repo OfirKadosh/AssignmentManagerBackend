@@ -1,0 +1,15 @@
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Shared.dll
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.pdb
