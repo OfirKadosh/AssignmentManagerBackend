@@ -26,6 +26,17 @@ namespace Business.Repositories
             _context.SaveChanges();
         }
 
+        public ICollection<Assignment> GetUserAssignmentsByDates(int id, DateTime firstDate, DateTime lastDate)
+        {
+            var toReturn = new List<Assignment>();
+            foreach (var assignment in GetUserById(id).Assignments)
+            {
+                if (DateTime.Compare(lastDate, assignment.Deadline) > 0 && (DateTime.Compare(firstDate, assignment.Deadline) < 0 && assignment.Status == Status.Done))
+                    toReturn.Add(assignment);
+            }
+            return toReturn;
+        }
+
         public User GetUserById(int id) => _context.Users.Find(id) ?? throw new Exception("User not found"); //user existing check by id
         public User GetUserByName(string username)
         {

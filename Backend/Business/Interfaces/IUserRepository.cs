@@ -15,5 +15,6 @@ namespace Business.Interfaces
         public User GetUserByName(string username);
         public void UpdateUser(int id, User newUser);
         public void DeleteUser(int id);
+        public ICollection<Assignment> GetUserAssignmentsByDates(int id, DateTime firstDate, DateTime lastDate);
     }
 }

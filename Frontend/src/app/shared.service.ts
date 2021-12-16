@@ -25,8 +25,8 @@ export class SharedService {
     return this.http.delete(this.BackendUrl + 'deleteuser/' + val);
   }
 
-  getAssignment(val: any):Observable<any> {
-    return this.http.get(this.BackendUrl + 'assignment/'+ val);
+  getAssignment(val: any): Observable<any> {
+    return this.http.get(this.BackendUrl + 'assignment/' + val);
   }
 
   addAssignment(val: any) {
@@ -44,4 +44,9 @@ export class SharedService {
   getConditionAssignment(val: any): Observable<any[]> {
     return this.http.get<any>(this.BackendUrl + 'conditionassignment' + val);
   }
+
+  //getUserAssignmentsByDate(valId: any, val:any[]): Observable<any[]> {
+  //  return this.http.get<any>(
+  //    this.BackendUrl + 'userassignmentbydateassignment' + valId, val[1]);
+  //}
 }
