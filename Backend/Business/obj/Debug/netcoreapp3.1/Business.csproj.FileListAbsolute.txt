@@ -6,7 +6,6 @@ C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcore
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\bin\Debug\netcoreapp3.1\Shared.pdb
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
-C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache

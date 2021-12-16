@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
+
 export class SharedService {
   readonly BackendUrl = 'http://localhost:8800/';
   constructor(private http: HttpClient) {}
@@ -45,8 +46,8 @@ export class SharedService {
     return this.http.get<any>(this.BackendUrl + 'conditionassignment' + val);
   }
 
-  //getUserAssignmentsByDate(valId: any, val:any[]): Observable<any[]> {
-  //  return this.http.get<any>(
-  //    this.BackendUrl + 'userassignmentbydateassignment' + valId, val[1]);
-  //}
+  getUserAssignmentsByDate(valId: any, val:any): Observable<any> {
+    return this.http.get<any>(
+      this.BackendUrl + 'userassignmentbydate' + valId, val);
+  }
 }

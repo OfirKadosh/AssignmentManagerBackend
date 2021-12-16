@@ -32,7 +32,6 @@ C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\bin\Debug\netc
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\bin\Debug\netcoreapp3.1\Shared.pdb
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\obj\Debug\netcoreapp3.1\BackendHost.csproj.AssemblyReference.cache
-C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\obj\Debug\netcoreapp3.1\BackendHost.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\obj\Debug\netcoreapp3.1\BackendHost.AssemblyInfoInputs.cache
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\obj\Debug\netcoreapp3.1\BackendHost.AssemblyInfo.cs
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\BackendHost\obj\Debug\netcoreapp3.1\BackendHost.csproj.CoreCompileInputs.cache

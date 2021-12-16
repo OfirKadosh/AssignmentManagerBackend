@@ -4,7 +4,6 @@ C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\bin\Debug\netcoreapp3
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\bin\Debug\netcoreapp3.1\Shared.dll
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\bin\Debug\netcoreapp3.1\Shared.pdb
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
-C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 C:\Users\ofirk\source\repos\AssignmentManager\Backend\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache

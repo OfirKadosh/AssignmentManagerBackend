@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BackendHost.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class UserAssignmentByDateController : ControllerBase
     {
@@ -18,6 +18,6 @@ namespace BackendHost.Controllers
 
         // GET <SignInController>/5
         [HttpGet("{id}")]
-        public ICollection<Assignment> Get(int id, [FromBody] DateTime firstDate, [FromBody] DateTime lastDate) => _repo.GetUserAssignmentsByDates(id, firstDate, lastDate);
+        public ICollection<Assignment> Get(int id, [FromBody] ICollection<DateTime> dates) => _repo.GetUserAssignmentsByDates(id, dates.FirstOrDefault(), dates.LastOrDefault());
     }
 }
