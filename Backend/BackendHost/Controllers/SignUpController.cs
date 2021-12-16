@@ -4,14 +4,14 @@ using Shared.Models;
 
 namespace BackendHost.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SignUpController : ControllerBase
     {
         IUserRepository _repo;
         public SignUpController(IUserRepository repo) { _repo = repo; }
         
-        // POST api/<SignUpController>
+        // POST <SignUpController>
         [HttpPost]
         public void Post([FromBody] User newUser) { _repo.CreateUser(newUser); }
     }

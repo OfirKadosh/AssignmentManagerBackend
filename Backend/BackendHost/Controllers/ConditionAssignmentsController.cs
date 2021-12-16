@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace BackendHost.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ConditionAssignmentsController : ControllerBase
     {
         IAssignmentRepository _assignmentRepository;
         public ConditionAssignmentsController(IAssignmentRepository assignmentRepository) { _assignmentRepository = assignmentRepository; }
 
-        // GET api/<ConditionAssignmentsController>/open
+        // GET <ConditionAssignmentsController>/open
         [HttpGet("{condition}")]
         public ICollection<Assignment> Get(string condition) => _assignmentRepository.GetAssignmentsByCondition(condition);
     }

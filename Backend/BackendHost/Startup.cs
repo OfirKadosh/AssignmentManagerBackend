@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Serialization;
 
 namespace BackendHost
 {
@@ -26,17 +27,20 @@ namespace BackendHost
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddCors(c => c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+            services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore).AddNewtonsoftJson(options=>options.SerializerSettings.ContractResolver=new DefaultContractResolver());
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<AmContext>(options => {
+            services.AddDbContext<AmContext>(options =>
+            {
                 options.UseSqlServer(connectionString).EnableSensitiveDataLogging().UseLazyLoadingProxies();
-                });
+            });
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IAssignmentRepository, AssignmentRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, AmContext ctx)
         {
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             ctx.Database.EnsureDeleted();
             ctx.Database.EnsureCreated();
 

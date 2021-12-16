@@ -4,14 +4,14 @@ using Shared.Models;
 
 namespace BackendHost.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CreateAssignmentController : ControllerBase
     {
         IAssignmentRepository _assignmentRepository;
         public CreateAssignmentController(IAssignmentRepository assignmentRepository) { _assignmentRepository = assignmentRepository; }
 
-        // POST api/<CreateAssignmentController>
+        // POST <CreateAssignmentController>
         [HttpPost]
         public void Post([FromBody] Assignment assignment) { _assignmentRepository.CreateAssignment(assignment); }
     }
