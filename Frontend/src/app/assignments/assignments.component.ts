@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-assignments',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AssignmentsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:SharedService) { }
 
+  AssignmentList:any=[];
   ngOnInit(): void {
+  }
+
+  refreshAssignmentList(){
+    
   }
 
 }
