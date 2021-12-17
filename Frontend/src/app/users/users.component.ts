@@ -10,7 +10,7 @@ export class UsersComponent implements OnInit {
 
   constructor(private service:SharedService) { }
   UserList:any=[];
-  ModalTitle:string;
+ // ModalTitle:string;
   ActivateEditUserComponent:boolean=false;
   user:any;
   ngOnInit(): void {
